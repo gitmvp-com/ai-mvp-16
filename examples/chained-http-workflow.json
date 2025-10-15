@@ -1,0 +1,21 @@
+{
+  "name": "Chained HTTP Requests",
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "httpRequest",
+      "parameters": {
+        "url": "https://api.github.com/users/octocat",
+        "method": "GET"
+      }
+    },
+    {
+      "id": "node-2",
+      "type": "httpRequest",
+      "parameters": {
+        "url": "https://api.github.com/users/torvalds",
+        "method": "GET"
+      }
+    }
+  ]
+}
