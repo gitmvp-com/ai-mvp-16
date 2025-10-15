@@ -1,0 +1,21 @@
+{
+  "name": "POST Request Example",
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "httpRequest",
+      "parameters": {
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "method": "POST",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "title": "Test Post",
+          "body": "This is a test post",
+          "userId": 1
+        }
+      }
+    }
+  ]
+}
