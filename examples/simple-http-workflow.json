@@ -1,0 +1,13 @@
+{
+  "name": "Simple HTTP Request Workflow",
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "httpRequest",
+      "parameters": {
+        "url": "https://api.github.com/users/octocat",
+        "method": "GET"
+      }
+    }
+  ]
+}
